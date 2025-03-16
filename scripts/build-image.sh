@@ -1,0 +1,1 @@
+    docker build -t pekotify-premium-rest:latest .

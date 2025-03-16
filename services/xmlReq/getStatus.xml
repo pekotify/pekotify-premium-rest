@@ -1,0 +1,11 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Header>
+        <KEY>USADAPEKORABESTVTUBERINTOWNNOCAPNOLIENOHEKRIIL</KEY>
+    </Header>
+    <Body>
+        <getStatus xmlns="http://ws/">
+            <creator_id xmlns=""></creator_id>
+            <user_id xmlns=""></user_id>
+        </getStatus>
+    </Body>
+</Envelope>

@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  web:
+    image: pekotify-premium-rest:latest
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - 3001:3001
+  db:
+    image: mysql:5.7
+    ports:
+      - 3307:3306
+    volumes:
+      - ./db:/app/database
+    environment:
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: pekotify_rest
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
