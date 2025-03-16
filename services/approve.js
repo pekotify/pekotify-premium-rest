@@ -2,7 +2,7 @@ const db = require('./db');
 const soapRequest = require('easy-soap-request');
 const dotenv = require('dotenv');
 
-const url = 'http://host.docker.internal:4444/ws/Subscription';
+const url = 'http://soap-web/ws/Subscription';
 const sampleHeaders = {
     'user-agent': 'someone',
     'Content-Type': 'text/xml;charset=UTF-8',
