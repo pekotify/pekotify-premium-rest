@@ -13,6 +13,6 @@ COPY package.json .
 RUN npm i
 
 # Exports
-EXPOSE 3001
+EXPOSE 3005
 
 CMD [ "npm", "run", "dev" ]

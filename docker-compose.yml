@@ -6,7 +6,7 @@ services:
       - ./:/usr/src/app
       - /usr/src/app/node_modules
     ports:
-      - 3001:3001
+      - 3005:3005
   db:
     image: mysql:5.7
     ports:
