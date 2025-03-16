@@ -21,3 +21,7 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: yes
     networks:
       - test_pekotify
+
+networks:
+  test_pekotify:
+    external: true
